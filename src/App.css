@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.movie-poster{
+  width:340px;
+  height: 270px;
+  object-fit:cover;
+  }
+  .movie-container{
+    width:340px;
+    }
+    .head{
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+     margin:0px;
+    }
+    .movie-name{
+       margin:0;
+       align-items: center;
+    }
+    .movie-rating{
+      align-items:flex-end;
+    }
+    .movie-summary{
+      margin-top:10px;
+    }
+        .movie-starcast{
+      margin-top:0;
+    }
+    .movie-list{
+display: flex;
+gap:16px;
+flex-wrap: wrap;
+justify-content: space-around;
+
+    }
+    .counter{
+      display: flex;
+      gap:5px;
+    }
+    .like-dislike{
+      font-size:20px;
+    }
+    .add-movie-form{
+      display:flex;
+     flex-direction: column;
+     gap:10px;
+     margin:16px;
+    }
+    .game-box{
+      height:160px;
+      width:160px;
+      background-color:white;
+        font-size:160px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    border:2px solid black;
+  }
+          .board{
+display:flex;
+flex-wrap: wrap;
+width:492px;
+          }
+          .full-game{
+            display:flex;
+            flex-direction:column;
+                        justify-content: center;
+          }
+          .movie-detail-container{
+            max-width: 980px;
+          }
+          .route-container{
+            margin: 10px;
+          }
